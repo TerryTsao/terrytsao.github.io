@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Help - About 🐶</title>
+<meta name="author" content="TerryTsao"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.1.0/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.1.0/dist/theme/solarized.css" id="theme"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.1.0/plugin/highlight/monokai.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Help - About 🐶</h1><h2 class="author">TerryTsao</h2><p class="date">Created: 2024-07-10 Wed 13:27</p>
+</section>
+
+<section>
+<section id="slide-org1e00d15">
+<h2 id="org1e00d15">我熟练掌握这两张表</h2>
+</section>
+<section>
+<p>
+<iframe data-src="pt.html" width="1000" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 600%;"></iframe>
+</p>
+</section>
+<section>
+
+<div id="orgaf09e3e" class="figure">
+<p><img src="images/vim.svg" alt="vim.svg" class="org-svg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org6f996fe">
+<h2 id="org6f996fe">我喜欢折腾环境</h2>
+<ul>
+<li class="fragment appear">Emacs is the best editor</li>
+<li class="fragment appear">Lisp is the best &amp; the worst programming language</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc228b2e">
+<h3 id="orgc228b2e">I use Arch, btw</h3>
+
+<div id="org2a902b1" class="figure">
+<p><img src="images/arch.png" alt="arch.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org0083c6e">
+<h2 id="org0083c6e">魔方玩家</h2>
+<ul>
+<li class="fragment appear">一个魔方爱好者</li>
+<li class="fragment appear">在卷王的世界里躺平</li>
+<li class="fragment appear">Here's why:</li>
+
+</ul>
+</section>
+<section>
+<div style="font-size: 50%;">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">项目</th>
+<th scope="col" class="org-left">我的平均成绩</th>
+<th scope="col" class="org-left">世界纪录平均（截至2024.07)</th>
+<th scope="col" class="org-left">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">三阶</td>
+<td class="org-left">13 s</td>
+<td class="org-left">4.36s</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">三阶单手</td>
+<td class="org-left">25 s</td>
+<td class="org-left">8.09 s</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">三阶盲拧</td>
+<td class="org-left">2.5 min</td>
+<td class="org-left">14.15 s</td>
+<td class="org-left">耗时 == 记忆 + 还原</td>
+</tr>
+
+<tr>
+<td class="org-left">……（这是一个没有资格卷的世界）</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">……（其他的项目不用再列了）</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgba6a16b">
+<h2 id="orgba6a16b">Gospel in Python</h2>
+<div class="org-src-container">
+
+<pre><code class="python" data-line-numbers="1-12|14-16|18-20|31-43|22-29|44-49|">def living(tl=[]):
+    if not tl:
+        # birth
+        tl.append(120 * 365 * 24 * 60 * 60)
+    import random
+    import time
+    if 666 == random.randint(0, 9999):
+        tl[0] -= random.randint(0, tl[0])
+    time.sleep(24 * 60 * 60)
+    tl[0] -= 24 * 60 * 60
+
+    return tl[0] &gt; 0
+
+def inHell():
+    eternalFire = True
+    return eternalFire
+
+def inHeaven():
+    eternalWithGod = True
+    return eternalWithGod
+
+def belief():
+    def decision():
+        # TODO: implement your code here
+        myCall = 'There is no God!!!'
+        return myCall
+
+    iAmGoodEnoughToGoToHeavenByMyself = decision()
+    assert iAmGoodEnoughToGoToHeavenByMyself, 'Jesus: my exception handler'
+
+try:
+    while living():
+        print('Where does life come from?')
+        print("What's the meaning of life?")
+        print("If I do enough good deeds, I'll go to Heaven!...??")
+        # ...
+        print('There is no Heaven!')
+        # ...
+
+        if belief():
+            continue
+    while inHell():
+        pass
+except AssertionError:
+    while living():
+        pass
+finally:
+    while inHeaven():
+        pass
+</code></pre>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.1.0/plugin/highlight/highlight.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+width: 1280,
+height: 960,
+minScale: 0.70,
+maxScale: 2.00,
+
+transition: 'cube',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealHighlight ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
